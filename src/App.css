@@ -1,0 +1,8 @@
+.App{
+  width: 1200px;
+  align-content: center;
+}
+.moviesList{
+  display: flex;
+  flex-wrap: wrap;
+}
