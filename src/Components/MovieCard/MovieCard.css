@@ -2,7 +2,7 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 body {
   background: #4e4e4e;
-  display: flex;
+  
 }
 
 .card {
@@ -19,6 +19,7 @@ body {
   /* display: flex;
   flex-direction: row;
   flex-wrap: wrap; */
+  
 }
 .card:hover {
   transform: scale(1);

@@ -1,10 +1,12 @@
 import React from 'react';
 import '../MovieCard/MovieCard.css';
 import Rate from '../Rate'
+import {Link} from 'react-router-dom';
 
 
-const MovieCard =({movie : {image,name,date,type,rating,description}})=>{
+const MovieCard =({movie : {id,image,name,date,type,rating,description}})=>{
     return(
+      <Link className="card-link" to={`film/${id}`}>
         <div className="card">
       <div className="card_left">
         <img src={image} alt="poster" />
@@ -31,6 +33,7 @@ const MovieCard =({movie : {image,name,date,type,rating,description}})=>{
         </div>
       </div>
     </div>
+    </Link>
 
     );
 };

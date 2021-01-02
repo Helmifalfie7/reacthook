@@ -1,8 +1,47 @@
 .App{
   width: 1200px;
-  align-content: center;
+  align-content: flex-end;
 }
 .moviesList{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+}
+.card{
+  margin-left:25%;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  width: 60%;
+  height: 00px;
+  position: relative;
+  border-radius: 12px;
+  
+}
+.card2{
+  width: 800px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left:25%;
+  background-color: rgba(128, 3, 3, 0.61);
+  border-radius: 10px;
+}
+.card-desc{
+  width: 40%;
+  height: 200px;
+  margin-left:5%;
+}
+.card-desc h1{
+  margin-right:5%;
+}
+.card-desc .btn{
+  text-decoration: none;
+}
+.img-card{
+  width: 50%;
+  height: 400px;
+  border-radius: 12px;
 }

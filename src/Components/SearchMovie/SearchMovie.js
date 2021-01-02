@@ -2,10 +2,12 @@ import React from 'react'
 import '../SearchMovie/SearchMovie.css';
 import Rate from '../Rate'
 
+
 const SearchMovie = ({ setSearchbyName, setSearchrate, searchrate }) => {
   return (
     <div>
         <div className="search-container">
+        
         <input
           type="text"
           placeholder="Type movie name to search"
